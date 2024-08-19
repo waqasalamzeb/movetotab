@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+        <button class="tablinks" onclick="openTab(event, 'About')">About</button>
+        <button class="tablinks" onclick="openTab(event, 'Services')">Services</button>
+    </div>
+
+    <div id="Home" class="tabcontent">
+        <div class="content-container">
+            <img src="home.jpg" alt="Home Image" width="50%" >
+            <div class="content-text">
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos impedit fugit cumque quos maxime est, eum aperiam dignissimos temporibus itaque culpa ipsa eveniet hic quo suscipit consequatur beatae sit eaque numquam, architecto maiores, necessitatibus aut minus mollitia. Doloribus totam quidem aut dolorem quisquam optio iste quos libero dicta omnis. Molestiae.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <div class="content-container">
+            <img src="about.jpg" alt="About Image" width="50%">
+            <div class="content-text">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos impedit fugit cumque quos maxime est, eum aperiam dignissimos temporibus itaque culpa ipsa eveniet hic quo suscipit consequatur beatae sit eaque numquam, architecto maiores, necessitatibus aut minus mollitia. Doloribus totam quidem aut dolorem quisquam optio iste quos libero dicta omnis. Molestiae.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="Services" class="tabcontent">
+        <div class="content-container">
+            <img src="services.jpg" alt="Services Image" width="50%">
+            <div class="content-text">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos impedit fugit cumque quos maxime est, eum aperiam dignissimos temporibus itaque culpa ipsa eveniet hic quo suscipit consequatur beatae sit eaque numquam, architecto maiores, necessitatibus aut minus mollitia. Doloribus totam quidem aut dolorem quisquam optio iste quos libero dicta omnis. Molestiae.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
